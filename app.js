@@ -23,7 +23,8 @@ var express               = require("express"),
 // Note: If there is an error > cd into ~ data or the main .. cd directory and type rm /data/db/mongod.lock then type mongod --bind_ip=$IP --nojournal > 
 // open a new term & cd into cwredesign:~/workspace and type mongo & open shell
 // Always close the connection using crl+c in the window where ./mongod is running then crl+c in the window where mongo is running
-mongoose.connect("mongodb://localhost/yelp_app");  
+// mongoose.connect("mongodb://localhost/yelp_app");  
+mongoose.connect("mongodb://cwr_mongolab:Reflect212!@ds113826.mlab.com:13826/yelp_app");
 
 //----------------------------
 // App includes for packeges |
