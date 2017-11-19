@@ -1,0 +1,56 @@
+body{
+	background-color: #fff;
+}
+
+.dateMade{
+	font-size: 0.8em;
+}
+
+.newfrmClass{
+	width:30%; 
+	margin: 30px auto;
+}
+
+.home
+{
+	background: url("../imgs/8866676839_d5387c0922_o.jpg") no-repeat;
+	background-size: cover;
+}
+
+.item img {
+	width:98%;
+	padding:0;
+}
+
+.thumbnailes {
+display:flex; flex-wrap: wrap;
+}
+
+.newfrmClss{
+	width: 30%;
+	margin: 0 auto;
+}
+
+.padding-10{
+	padding:10px;
+}
+
+.margin-10{
+	padding:10px 0px;
+}
+
+#deletefrm{
+	display: inline;
+}
+
+.delete-frm{
+	display: inline;
+}
+
+.frmControl{
+	padding:20px 0px;
+}
+
+.gBack:hover{
+	color:orange;
+}

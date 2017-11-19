@@ -1,0 +1,26 @@
+<% include partials/header %>
+
+<div class="container">
+    <div class="row">
+         <div class="col-md-12">
+        <div class="newfrmClass">
+  <h2>Please Login</h2>
+        <form action="/login" method="POST">
+        <div class="form-group">
+        <input class="form-control" type="text" name="username" placeholder="username">
+        </div>
+        <div class="form-group">
+        <input class="form-control" type="password" name="password" placeholder="password">
+        </div>
+        <button class="ui green basic button fluid ui button">Login</button>
+        </form>
+        <p>
+            <ul class="item-list">
+            <li><a href="/register">Sign Up?</a></li>
+            </ul>
+        </p>
+        </div>
+    </div>
+</div>
+</div>
+<% include partials/footer %>

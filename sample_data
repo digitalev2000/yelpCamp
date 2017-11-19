@@ -1,0 +1,15 @@
+// -------- Add a test location using Mongoose -----------------------------
+Campground.create({
+    name: "Rain Approaches",
+    title: "Rain Approaches",
+    description: "A small camp site located in Mexico near the border.",
+    image: "https://farm1.staticflickr.com/58/216334638_3d68789863.jpg",
+    body: "I visted this site and it is very nice!"
+}, function(err, campground){
+    if(err){
+        console.log(err);
+    } else {
+        console.log(campground);
+    }
+});
+// -------- Add a test location using Mongoose ------------------------------

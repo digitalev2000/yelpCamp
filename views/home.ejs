@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Richard's Yelp Camp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Richard Berry">
+    
+        <link rel="stylesheet" href="/css/landing.css">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap_flat.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
+    </head>
+     <body>
+             
+  <div class="container">
+  <!-- Flash messages are right here ! --> 
+  <% if(error && error.length > 0){ %>
+      <div class="alert alert-danger"><%= error %></div>
+  <% } %>
+   <% if(success && success.length > 0){ %>
+      <div class="alert alert-success"><%= success %></div>
+  <% } %>
+  
+       <div id="landing-header">
+     		<h1>Welcome to YelpCamp!</h1>
+    		<a href="/campgrounds" class="btn btn-primary btn-lrg">View All Campgrounds</a>
+        
+            <div class="btn-group_ld">
+    	    <div class="btn btn-secondary-sm"><a href="/login">Login</a></div>
+            <div class="btn btn-secondary-sm"><a href="/register">Sign Up?</a> </div>
+            </div>
+    	    
+       </div>		
+		
+    
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    
+    </div>
+    
+     <footer class="footer">
+        <div class="container">
+        <span class="copyright">
+            <p></p>
+        Richard Berry &copy;  <script type="text/javascript">document.write(new Date().getFullYear());</script> <a href="http://customwebsiteredesign.gear.host/">Custom Website Redesign.com</a>. All Rights Reserved
+        </span>
+    </div>
+    </footer>
+</body>
+</html>
