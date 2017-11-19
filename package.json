@@ -1,12 +1,8 @@
 {
-  "name": "Richards_Yelpcamp",
+  "name": "ricksyelpcamp",
   "version": "1.0.0",
-  "main": "app.js
-  "scripts": {
-    "start": "node app.js"
-  },
-  "author": "Richard Berry",
-  "license": "ISC",
+  "description": "An app to display campgrounds",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.1",
     "connect-flash": "^0.1.1",
@@ -15,12 +11,29 @@
     "express-sanitizer": "^1.0.2",
     "express-session": "^1.15.6",
     "method-override": "^2.3.10",
+    "mongo": "^0.1.0",
     "mongoose": "^4.11.12",
+    "nodemon": "^1.12.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^4.4.0",
     "sanitize-html": "^1.14.1",
-    "schema-inspector": "^1.6.8"
+    "schema-inspector": "^1.6.8",
+    "yo": "^2.0.0"
   },
-  "description": ""
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/boiling-garden-77690.git"
+  },
+  "keywords": [
+    "Richard",
+    "Berry's",
+    "app"
+  ],
+  "author": "Richard Berry",
+  "license": "ISC"
 }
